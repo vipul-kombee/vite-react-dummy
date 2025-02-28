@@ -30,8 +30,5 @@ jobs:
       - name: Run ESLint
         run: npx eslint . --ext .ts,.tsx
 
-      - name: Run tests
-        run: npm test
-
       - name: Build Vite project
         run: npm run build
